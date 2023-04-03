@@ -3,8 +3,8 @@ h1{
     text-align: center;
     padding:2px 2px;
     color:black;
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin-left: 40px;
 }
 h2{
     margin:60px;
@@ -32,9 +32,9 @@ body{
 }
 
 p {
-  margin: 60px;
+  margin: 85px;
   font-size: 25px;
-  width:40%;
+  width:60%;
   
 }
 h3{
@@ -53,31 +53,37 @@ h5{
 }
 .div1{
     
-    display: flex;
+    
     flex-wrap: nowrap;
 }
 .div1 img{
     padding:20px 20px;
     max-width:110%;
+    margin-left: 10px;
     width:80%;
     aspect-ratio: 2/1;
+    width:250px;
+    height: 350px;
+    align-items: center;
 }
 .div2{
-    display:flex;
+    
     flex-wrap:nowrap;
     
 }
 .div2 img{
     padding:10px 10px;
-    max-width:100%;
-    width:80%;
-    padding-left: 40px;
+    max-width: 140%;
+    width:30%;
+    
+    width:250px;
+    height:250px;
 }
 .div3 img{
     padding:85px 85px ;
     max-width:100%;
     width:20%;
-    margin-left: 5%;
+    margin-left:2%;
     margin-right: -5%;
     
 }
@@ -103,16 +109,13 @@ h5{
 
 @media screen and (max-width:1250px){
    .div1 {
-    padding-right: 10px;
+    padding-right: 30px;
     margin:20px;
    } 
    .div1 p{
     margin:2px;
    }
-   .div2 img{
-    margin:0px;
-    width: 560px;
-   }
+   
    .div3 img{
     max-width: 70%;
     padding: 25px;
@@ -149,9 +152,9 @@ h5{
         margin-right: 10px ;
     }
 }
-@media screen and(max-width=768px){
+
     
-}
+
 
 
 
